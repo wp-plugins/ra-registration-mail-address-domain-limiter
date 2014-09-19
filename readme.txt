@@ -1,9 +1,9 @@
 === RA - Registration Mail Address Domain Limiter ===
-Contributors: skuraomoto
+Contributors: skuramoto
 Tags: rains, Email, Userregister, Japanese
 Requires at least: 4.0
 Tested up to: 4.0
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 
 The domain which can be used for user's registration can be restricted.
 
@@ -16,6 +16,9 @@ The domain which can be used for user's registration can be restricted.
 3. Plug-in settings page link "RMDL" to will be added at "Settings". click to open settings page.
 
 == Changelog ==
+
+= 1.2.4 =
+* Contributors name fix.
 
 = 1.2.3 =
 * Registration to the plug-in directory.
