@@ -1,0 +1,52 @@
+#rmadl_settings form {
+  margin-bottom: 4em;
+}
+
+#rmadl_settings dl dt {
+  font-size: 120%;
+  margin-top: 3em;
+}
+#rmadl_settings dl dt:first-child {
+  margin-top: 0;
+}
+#rmadl_settings dl dd {
+  margin-left: 2em;
+  margin-top: 1em;
+}
+#rmadl_settings dl dd span {
+  margin-left: 2em;
+  padding: 0.5em;
+  
+  border: dashed 1px #CCC;
+  background: #F0F0F0;
+}
+#rmadl_settings dl dd span.active {
+  background: #FFF;
+}
+#rmadl_settings dl dd span:first-child {
+  margin-left: 0;
+}
+#rmadl_settings dl dd input[type="radio"] {
+  margin-top: 0.25em;
+}
+#rmadl_settings dl dd label {
+  margin: 0 0.5em;
+  line-height: 1;
+}
+#rmadl_settings dl dd.notes {
+  color: red;
+}
+#rmadl_settings dl dd.text {
+  color: #999;
+}
+
+#rmadl_settings textarea#target_domains,
+#rmadl_settings textarea#exclude_address {
+  width: 300px;
+  max-width: 80%;
+  
+  height: 15em;
+}
+#rmadl_settings input[type="submit"] {
+  margin-top: 2em;
+}
