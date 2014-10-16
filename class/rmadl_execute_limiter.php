@@ -52,7 +52,7 @@ class RMADL_Limitter_Execute {
       switch($settings['limiter_mode']) {
       
         case 'whitelist' : 
-          if (!in_array($domain, $settings['target_domains']) || in_array($user_email, $settings['exclude_address'])) $add_error = true;
+          if (!in_array($domain, $settings['target_domains']) && !in_array($user_email, $settings['exclude_address'])) $add_error = true;
           break;
         
         case 'blacklist' : 

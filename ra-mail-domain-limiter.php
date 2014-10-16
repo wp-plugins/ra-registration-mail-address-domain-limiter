@@ -4,7 +4,7 @@ Plugin Name: RA - Registration Mail Address Domain Limiter
 Description: This plug-in restricts the address which uses initial registration for the time of a user accounting, and the registration mail address of a profile page per domain.
 Author: Rasin (skuraomoto)
 Author URI: http://www.rains.jp/
-Version: 1.2.5
+Version: 1.2.6
 License: GPLv2
 Text Domain: rains-rmadl
 Domain Path: /languages/
