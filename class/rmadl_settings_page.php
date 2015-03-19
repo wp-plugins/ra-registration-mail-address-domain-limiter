@@ -182,7 +182,7 @@ class RMADL_Settings_Page {
     $text = preg_replace("/\r\n |\r |\n /", '', $text);
     
     //メールアドレスに使用できる有効な文字以外を削除
-    $text = mb_ereg_replace("[^0-9a-z\-\n\.@]", '', $text);
+    $text = mb_ereg_replace("[^0-9a-z\-\n\.@_]", '', $text);
     
     //行で分割
     $exclude_address_array = explode("\n", $text);
