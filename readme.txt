@@ -2,8 +2,8 @@
 Contributors: skuramoto
 Tags: rains, Email, Userregister, Japanese
 Requires at least: 4.0
-Tested up to: 4.1.1
-Stable tag: 1.2.7
+Tested up to: 4.2.2
+Stable tag: 1.2.8
 
 The domain which can be used for user's registration can be restricted.
 
@@ -16,6 +16,9 @@ The domain which can be used for user's registration can be restricted.
 3. Plug-in settings page link "RMDL" to will be added at "Settings". click to open settings page.
 
 == Changelog ==
+
+= 1.2.8 =
+* Compatibility Check.
 
 = 1.2.7 =
 * bugfix
